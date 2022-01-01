@@ -1,0 +1,29 @@
+header,
+footer {
+    background-color: black;
+    color: white;
+    column-fill: auto;
+    height: 40px;
+}
+
+ul {
+    display: inline-block;
+    column-count: 4;
+    column-gap: 15px;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+}
+
+p {
+    column-count: 4;
+    text-align: justify;
+    column-rule: 2px solid black;
+}
